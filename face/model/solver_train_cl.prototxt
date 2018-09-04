@@ -1,0 +1,28 @@
+net: "model/train_cl.prototxt"
+
+test_state : {stage: 'test'}
+test_iter: 10
+
+test_state : {stage: 'bd_test'}
+test_iter: 10
+
+test_interval: 100
+
+base_lr: 0.001
+
+#lr_policy: "step"
+lr_policy: "fixed"
+
+momentum: 0.9
+
+#gamma: 0.95
+#stepsize: 100000
+#weight_decay: 0.0005
+
+display: 100
+max_iter: 200000
+snapshot: 1000
+snapshot_prefix: "model/cl/cl"
+
+type: "Adam"
+solver_mode: GPU
