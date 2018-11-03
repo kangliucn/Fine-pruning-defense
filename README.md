@@ -1,4 +1,4 @@
-# Fine-pruning-defense
+# Fine-Pruning Defense
 
 This is the source code for the paper:  
 [Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-00470-5_13) (RAID 2018)  
