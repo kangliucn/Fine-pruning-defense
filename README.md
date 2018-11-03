@@ -24,6 +24,6 @@ https://drive.google.com/drive/folders/1GBhKk2UdeU5cB7guE4oI469JuQ573XO6?usp=sha
 Backdoor attacks on traffic sign classifiers can be found in https://github.com/Kooscii/BadNets.  
 
 
-Please run "conv_output_prune.py" in "face" or "speech" folder to prune the network, and run "test.py" to test the network accuraty.  
+Please run "conv_output_prune.py" in "face" or "speech" folder to prune the network, and run "test.py" to test the network accuracy.  
 
 Thanks to the helpful resource from https://github.com/jinze1994/DeepID1 and https://github.com/pannous/caffe-speech-recognition.
